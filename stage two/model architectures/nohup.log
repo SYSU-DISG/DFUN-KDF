@@ -1,0 +1,214 @@
+nohup: ignoring input
+/home/test/anaconda3/envs/UAV/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/test/anaconda3/envs/UAV/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet34_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet34_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+1003
+15180
+1518
+start round 0
+
+Epoch: 1
+139674087457312
+[epoch:1, iter:1] Loss: 9.698 | Acc: 0.000% 
+[epoch:1, iter:2] Loss: 9.007 | Acc: 0.000% 
+[epoch:1, iter:3] Loss: 7.916 | Acc: 5.208% 
+[epoch:1, iter:4] Loss: 6.985 | Acc: 13.086% 
+[epoch:1, iter:5] Loss: 6.259 | Acc: 19.219% 
+[epoch:1, iter:6] Loss: 5.487 | Acc: 25.521% 
+[epoch:1, iter:7] Loss: 4.872 | Acc: 30.804% 
+[epoch:1, iter:8] Loss: 4.416 | Acc: 35.059% 
+[epoch:1, iter:9] Loss: 4.105 | Acc: 37.240% 
+[epoch:1, iter:10] Loss: 3.825 | Acc: 40.312% 
+[epoch:1, iter:11] Loss: 3.572 | Acc: 43.040% 
+[epoch:1, iter:12] Loss: 3.345 | Acc: 45.586% 
+client 0 - Epoch 0 trainning acc: 30.280%
+
+Epoch: 2
+139674087457312
+[epoch:2, iter:13] Loss: 0.663 | Acc: 85.938% 
+[epoch:2, iter:14] Loss: 0.714 | Acc: 85.156% 
+[epoch:2, iter:15] Loss: 0.629 | Acc: 85.677% 
+[epoch:2, iter:16] Loss: 0.590 | Acc: 85.938% 
+[epoch:2, iter:17] Loss: 0.543 | Acc: 86.094% 
+[epoch:2, iter:18] Loss: 0.514 | Acc: 86.589% 
+[epoch:2, iter:19] Loss: 0.516 | Acc: 86.384% 
+[epoch:2, iter:20] Loss: 0.500 | Acc: 86.523% 
+[epoch:2, iter:21] Loss: 0.484 | Acc: 86.458% 
+[epoch:2, iter:22] Loss: 0.473 | Acc: 86.641% 
+[epoch:2, iter:23] Loss: 0.465 | Acc: 86.932% 
+[epoch:2, iter:24] Loss: 0.456 | Acc: 86.957% 
+client 0 - Epoch 1 trainning acc: 50.740%
+
+Epoch: 3
+139674087457312
+[epoch:3, iter:25] Loss: 0.215 | Acc: 91.406% 
+[epoch:3, iter:26] Loss: 0.217 | Acc: 92.188% 
+[epoch:3, iter:27] Loss: 0.228 | Acc: 91.667% 
+[epoch:3, iter:28] Loss: 0.200 | Acc: 93.164% 
+[epoch:3, iter:29] Loss: 0.189 | Acc: 93.750% 
+[epoch:3, iter:30] Loss: 0.171 | Acc: 94.531% 
+[epoch:3, iter:31] Loss: 0.171 | Acc: 94.754% 
+[epoch:3, iter:32] Loss: 0.170 | Acc: 94.629% 
+[epoch:3, iter:33] Loss: 0.166 | Acc: 94.531% 
+[epoch:3, iter:34] Loss: 0.179 | Acc: 94.219% 
+[epoch:3, iter:35] Loss: 0.178 | Acc: 94.034% 
+[epoch:3, iter:36] Loss: 0.174 | Acc: 94.071% 
+client 0 - Epoch 2 trainning acc: 66.036%
+
+Epoch: 4
+139674087457312
+[epoch:4, iter:37] Loss: 0.071 | Acc: 98.438% 
+[epoch:4, iter:38] Loss: 0.076 | Acc: 97.656% 
+[epoch:4, iter:39] Loss: 0.081 | Acc: 97.135% 
+[epoch:4, iter:40] Loss: 0.084 | Acc: 97.266% 
+[epoch:4, iter:41] Loss: 0.083 | Acc: 97.344% 
+[epoch:4, iter:42] Loss: 0.090 | Acc: 97.005% 
+[epoch:4, iter:43] Loss: 0.092 | Acc: 96.987% 
+[epoch:4, iter:44] Loss: 0.090 | Acc: 97.168% 
+[epoch:4, iter:45] Loss: 0.087 | Acc: 97.309% 
+[epoch:4, iter:46] Loss: 0.089 | Acc: 97.188% 
+[epoch:4, iter:47] Loss: 0.084 | Acc: 97.443% 
+[epoch:4, iter:48] Loss: 0.081 | Acc: 97.497% 
+client 0 - Epoch 3 trainning acc: 66.447%
+
+Epoch: 5
+139674087457312
+[epoch:5, iter:49] Loss: 0.050 | Acc: 96.875% 
+[epoch:5, iter:50] Loss: 0.048 | Acc: 97.656% 
+[epoch:5, iter:51] Loss: 0.036 | Acc: 98.438% 
+[epoch:5, iter:52] Loss: 0.038 | Acc: 98.633% 
+[epoch:5, iter:53] Loss: 0.042 | Acc: 98.594% 
+[epoch:5, iter:54] Loss: 0.050 | Acc: 98.307% 
+[epoch:5, iter:55] Loss: 0.045 | Acc: 98.438% 
+[epoch:5, iter:56] Loss: 0.046 | Acc: 98.535% 
+[epoch:5, iter:57] Loss: 0.042 | Acc: 98.698% 
+[epoch:5, iter:58] Loss: 0.040 | Acc: 98.828% 
+[epoch:5, iter:59] Loss: 0.037 | Acc: 98.935% 
+[epoch:5, iter:60] Loss: 0.037 | Acc: 98.946% 
+client 0 - Epoch 4 trainning acc: 70.132%
+
+Epoch: 6
+139674087457312
+[epoch:6, iter:61] Loss: 0.006 | Acc: 100.000% 
+[epoch:6, iter:62] Loss: 0.011 | Acc: 100.000% 
+[epoch:6, iter:63] Loss: 0.011 | Acc: 100.000% 
+[epoch:6, iter:64] Loss: 0.012 | Acc: 99.805% 
+[epoch:6, iter:65] Loss: 0.011 | Acc: 99.844% 
+[epoch:6, iter:66] Loss: 0.011 | Acc: 99.870% 
+[epoch:6, iter:67] Loss: 0.012 | Acc: 99.777% 
+[epoch:6, iter:68] Loss: 0.014 | Acc: 99.609% 
+[epoch:6, iter:69] Loss: 0.013 | Acc: 99.653% 
+[epoch:6, iter:70] Loss: 0.014 | Acc: 99.688% 
+[epoch:6, iter:71] Loss: 0.013 | Acc: 99.716% 
+[epoch:6, iter:72] Loss: 0.014 | Acc: 99.736% 
+client 0 - Epoch 5 trainning acc: 70.789%
+
+Epoch: 7
+139674087457312
+[epoch:7, iter:73] Loss: 0.008 | Acc: 100.000% 
+[epoch:7, iter:74] Loss: 0.010 | Acc: 99.609% 
+[epoch:7, iter:75] Loss: 0.009 | Acc: 99.740% 
+[epoch:7, iter:76] Loss: 0.008 | Acc: 99.805% 
+[epoch:7, iter:77] Loss: 0.007 | Acc: 99.844% 
+[epoch:7, iter:78] Loss: 0.007 | Acc: 99.870% 
+[epoch:7, iter:79] Loss: 0.007 | Acc: 99.888% 
+[epoch:7, iter:80] Loss: 0.007 | Acc: 99.902% 
+[epoch:7, iter:81] Loss: 0.006 | Acc: 99.913% 
+[epoch:7, iter:82] Loss: 0.006 | Acc: 99.922% 
+[epoch:7, iter:83] Loss: 0.006 | Acc: 99.929% 
+[epoch:7, iter:84] Loss: 0.008 | Acc: 99.868% 
+client 0 - Epoch 6 trainning acc: 73.026%
+
+Epoch: 8
+139674087457312
+[epoch:8, iter:85] Loss: 0.003 | Acc: 100.000% 
+[epoch:8, iter:86] Loss: 0.003 | Acc: 100.000% 
+[epoch:8, iter:87] Loss: 0.002 | Acc: 100.000% 
+[epoch:8, iter:88] Loss: 0.002 | Acc: 100.000% 
+[epoch:8, iter:89] Loss: 0.002 | Acc: 100.000% 
+[epoch:8, iter:90] Loss: 0.003 | Acc: 100.000% 
+[epoch:8, iter:91] Loss: 0.003 | Acc: 100.000% 
+[epoch:8, iter:92] Loss: 0.004 | Acc: 99.902% 
+[epoch:8, iter:93] Loss: 0.004 | Acc: 99.913% 
+[epoch:8, iter:94] Loss: 0.004 | Acc: 99.922% 
+[epoch:8, iter:95] Loss: 0.004 | Acc: 99.929% 
+[epoch:8, iter:96] Loss: 0.004 | Acc: 99.934% 
+client 0 - Epoch 7 trainning acc: 72.780%
+
+Epoch: 9
+139674087457312
+[epoch:9, iter:97] Loss: 0.002 | Acc: 100.000% 
+[epoch:9, iter:98] Loss: 0.002 | Acc: 100.000% 
+[epoch:9, iter:99] Loss: 0.003 | Acc: 100.000% 
+[epoch:9, iter:100] Loss: 0.003 | Acc: 100.000% 
+[epoch:9, iter:101] Loss: 0.005 | Acc: 99.844% 
+[epoch:9, iter:102] Loss: 0.004 | Acc: 99.870% 
+[epoch:9, iter:103] Loss: 0.004 | Acc: 99.888% 
+[epoch:9, iter:104] Loss: 0.003 | Acc: 99.902% 
+[epoch:9, iter:105] Loss: 0.003 | Acc: 99.913% 
+[epoch:9, iter:106] Loss: 0.003 | Acc: 99.922% 
+[epoch:9, iter:107] Loss: 0.003 | Acc: 99.929% 
+[epoch:9, iter:108] Loss: 0.003 | Acc: 99.934% 
+client 0 - Epoch 8 trainning acc: 73.487%
+
+Epoch: 10
+139674087457312
+[epoch:10, iter:109] Loss: 0.004 | Acc: 100.000% 
+[epoch:10, iter:110] Loss: 0.003 | Acc: 100.000% 
+[epoch:10, iter:111] Loss: 0.002 | Acc: 100.000% 
+[epoch:10, iter:112] Loss: 0.002 | Acc: 100.000% 
+[epoch:10, iter:113] Loss: 0.002 | Acc: 100.000% 
+[epoch:10, iter:114] Loss: 0.002 | Acc: 100.000% 
+[epoch:10, iter:115] Loss: 0.002 | Acc: 100.000% 
+[epoch:10, iter:116] Loss: 0.002 | Acc: 100.000% 
+[epoch:10, iter:117] Loss: 0.002 | Acc: 100.000% 
+[epoch:10, iter:118] Loss: 0.002 | Acc: 100.000% 
+[epoch:10, iter:119] Loss: 0.002 | Acc: 100.000% 
+[epoch:10, iter:120] Loss: 0.002 | Acc: 100.000% 
+client 0 - Epoch 9 trainning acc: 73.586%
+
+Epoch: 1
+139674058227184
+[epoch:1, iter:1] Loss: 9.660 | Acc: 0.000% 
+[epoch:1, iter:2] Loss: 8.902 | Acc: 0.000% 
+[epoch:1, iter:3] Loss: 7.890 | Acc: 3.385% 
+[epoch:1, iter:4] Loss: 6.980 | Acc: 11.523% 
+[epoch:1, iter:5] Loss: 6.282 | Acc: 17.812% 
+[epoch:1, iter:6] Loss: 5.559 | Acc: 23.958% 
+[epoch:1, iter:7] Loss: 4.981 | Acc: 29.018% 
+[epoch:1, iter:8] Loss: 4.554 | Acc: 32.715% 
+[epoch:1, iter:9] Loss: 4.210 | Acc: 36.372% 
+[epoch:1, iter:10] Loss: 3.913 | Acc: 38.359% 
+[epoch:1, iter:11] Loss: 3.676 | Acc: 40.696% 
+[epoch:1, iter:12] Loss: 3.424 | Acc: 43.412% 
+client 1 - Epoch 0 trainning acc: 28.010%
+
+Epoch: 2
+139674058227184
+[epoch:2, iter:13] Loss: 0.776 | Acc: 78.125% 
+[epoch:2, iter:14] Loss: 0.677 | Acc: 80.859% 
+[epoch:2, iter:15] Loss: 0.676 | Acc: 80.469% 
+[epoch:2, iter:16] Loss: 0.641 | Acc: 80.859% 
+[epoch:2, iter:17] Loss: 0.669 | Acc: 81.094% 
+[epoch:2, iter:18] Loss: 0.641 | Acc: 80.729% 
+[epoch:2, iter:19] Loss: 0.626 | Acc: 81.027% 
+[epoch:2, iter:20] Loss: 0.633 | Acc: 80.859% 
+[epoch:2, iter:21] Loss: 0.607 | Acc: 81.424% 
+[epoch:2, iter:22] Loss: 0.604 | Acc: 81.562% 
+[epoch:2, iter:23] Loss: 0.587 | Acc: 82.315% 
+[epoch:2, iter:24] Loss: 0.564 | Acc: 82.872% 
+client 1 - Epoch 1 trainning acc: 51.859%
+
+Epoch: 3
+139674058227184
+[epoch:3, iter:25] Loss: 0.136 | Acc: 95.312% 
+[epoch:3, iter:26] Loss: 0.236 | Acc: 91.016% 
+[epoch:3, iter:27] Loss: 0.258 | Acc: 90.104% 
+[epoch:3, iter:28] Loss: 0.260 | Acc: 90.039% 
+[epoch:3, iter:29] Loss: 0.245 | Acc: 90.312% 
+[epoch:3, iter:30] Loss: 0.229 | Acc: 91.146% 
+[epoch:3, iter:31] Loss: 0.224 | Acc: 91.295% 
+[epoch:3, iter:32] Loss: 0.215 | Acc: 91.895% 
+[epoch:3, iter:33] Loss: 0.228 | Acc: 91.319% 
+[epoch:3, iter:34] Loss: 0.223 | Acc: 91.562% 
